@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 5rem;
+  margin: 5px;
+  cursor: pointer;
+}
+.primary {
+  justify-content: center;
+  text-align: center;
+  background-color: green;
+}
+
+.secondary {
+  text-align: center;
+  background-color: rgb(0, 53, 128);
+}

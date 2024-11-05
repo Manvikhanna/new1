@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container input {
+  padding: 10px;
+  outline: none;
+  width: 300px;
+}
+
+.container input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}

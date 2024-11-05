@@ -1,0 +1,9 @@
+.forms {
+  height: 100vh;
+  border: 2px solid rgb(123, 114, 114);
+  overflow: scroll;
+}
+
+.forms::-webkit-scrollbar {
+  display: none;
+}

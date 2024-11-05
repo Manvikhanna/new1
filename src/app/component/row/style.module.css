@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  justify-content: var(--align);
+  flex-wrap: wrap;
+}
+.container > * {
+  min-width: calc(95% / var(--col)) !important;
+}
